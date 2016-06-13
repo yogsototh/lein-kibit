@@ -1,8 +1,8 @@
-(defproject lein-kibit "0.1.2"
+(defproject yogsototh/lein-kibit "0.1.3"
   :description "kibit lein plugin"
-  :url "https://github.com/jonase/lein-kibit"
+  :url "https://github.com/yogsototh/lein-kibit"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[jonase/kibit "0.1.2"]
+  :dependencies [[yogsototh/kibit "0.1.3"]
                  [org.clojure/tools.namespace "0.2.11"]]
   :eval-in-leiningen true)
