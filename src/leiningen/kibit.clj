@@ -7,7 +7,7 @@
 (defn ^:no-project-needed kibit
   [project & args]
   (let [src-paths (get-in project [:kibit :source-paths] ["rules"])
-        kibit-project `{:dependencies [[yogsototh/kibit "0.1.4"]]
+        kibit-project `{:dependencies [[yogsototh/kibit "0.1.5"]]
                         :source-paths ~src-paths}
         paths (filter some? (concat
                               (:source-paths project)
