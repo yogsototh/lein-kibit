@@ -1,6 +1,6 @@
 # lein-kibit
 
-See [kibit](https://github.com/jonase/kibit) for instructions on how
+See [kibit](https://github.com/yogsototh/kibit) for instructions on how
 to install and use this plugin.
 
 ## License
